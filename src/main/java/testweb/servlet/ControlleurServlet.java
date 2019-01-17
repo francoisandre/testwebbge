@@ -11,8 +11,7 @@ public class ControlleurServlet extends HttpServlet {
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		super.doPost(req, resp);
+		Integer nombre = new Integer(req.getParameter("nombre"));
 	}
 
 }
