@@ -62,6 +62,18 @@
 		<servlet-name>bugServlet</servlet-name>
 		<url-pattern>/bug.html</url-pattern>
 	</servlet-mapping>
+
+
+<servlet>
+		<servlet-name>controlleurServlet</servlet-name>
+		<servlet-class>testweb.servlet.ControlleurServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controlleurServlet</servlet-name>
+		<url-pattern>/genereListe</url-pattern>
+	</servlet-mapping>
+
+
 	
 	<servlet>
 		<servlet-name>errorServlet</servlet-name>

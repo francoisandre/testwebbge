@@ -6,7 +6,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class UsineFaussesPersonnes {
 
-	List < Personne > genereFaussesPersonnes(Integer nombre) {
+	public List < Personne > genereFaussesPersonnes(Integer nombre) {
 		List < Personne > resultat = new ArrayList <>();
 		for (int i = 0; i < nombre; i++) {
 			resultat.add(genereFaussePersonne());
